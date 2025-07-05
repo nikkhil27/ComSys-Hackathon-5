@@ -362,7 +362,7 @@ print("\n" + "="*60)
 print("TRAINING COMPLETE")
 print("="*60)
 print(f"Final Top-1 Accuracy: {best_acc:.4f}")
-print(f"Model saved as: improved_siamese_model.h5")
+print(f"Model saved as: best_siamese_model_1_improved.h5")
 print("="*60)
 
 # Check data distribution
