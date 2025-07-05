@@ -1,6 +1,6 @@
 1. Requirements (TensorFlow version, etc.)
-2. Command to train: python Task_B.py
-3. Command to evaluate: python evaluate.py
+2. Command to train: python3 Task_B.py
+3. Command to evaluate: python3 evaluate.py
 4. Ensure test/ folder is provided in expected structure.
 5. Reproducibility and Platform Notes
     This model was trained on macOS using the MPS (Metal Performance Shaders) backend via TensorFlow. Due to low-level differences in hardware acceleration (MPS vs CUDA), training the same model on a different backend (e.g., CUDA on NVIDIA GPUs) may produce slightly different weights, even with the same random seed and data.
