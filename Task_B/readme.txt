@@ -19,4 +19,5 @@ Loss Function: Focal loss (γ=2.0, α=0.25)
 Optimizer: Adam (lr=0.001)
 
 Metrics: Accuracy and a custom top1_accuracy_metric()
+7. Val TOp1 Accuracy - 87%
 
