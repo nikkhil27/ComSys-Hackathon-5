@@ -38,7 +38,7 @@ test_generator = test_datagen.flow_from_directory(
 # -------------------------
 # Load model
 # -------------------------
-model = load_model('best_siamese_model_1_improved.h5')
+model = load_model('improved_siamese_model.h5')
 
 # -------------------------
 # Evaluate
